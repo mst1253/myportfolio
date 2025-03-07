@@ -1,6 +1,8 @@
 "use client"
 import { DarkThemeToggle, Navbar } from "flowbite-react";
 import {Play} from '@next/font/google'
+import { Link } from 'react-scroll';
+
 const roboto = Play({
     weight: ['400', '700'],
     subsets: ['latin'],
@@ -16,13 +18,14 @@ const Menu = () => {
             </b></span>
         </Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse >
-          <Navbar.Link  href="#">
-            About
-          </Navbar.Link>
-          <Navbar.Link className="hover:text-blue-500" href="#">Myskills</Navbar.Link>
-          <Navbar.Link href="#">Myprojects</Navbar.Link>
-          <Navbar.Link href="#">Contact</Navbar.Link>
+        <Navbar.Collapse>
+          <Link className="dark:text-gray-400 hover:text-blue-500" to="Aboutme" smooth={true} duration={1000}>About</Link>
+          <Link className="dark:text-gray-400 hover:text-blue-500" to="Myskills" smooth={true} duration={1000}>
+          Myskills</Link>
+          <Link className=" dark:text-gray-400 hover:text-blue-500" to="Myprojects" smooth={true} duration={1000}>
+          Myprojects</Link>
+          <Link className="dark:text-gray-400 hover:text-blue-500" to="Contact" smooth={true} duration={1000}>
+          Contact</Link>
         </Navbar.Collapse>
         <DarkThemeToggle />
       </Navbar>

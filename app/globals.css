@@ -20,7 +20,7 @@ body {
 .circle:hover::before{
   position:absolute;
   content:attr(data-text);
-  color:white;
+ 
   margin-left:-40px;
   font-size:12px;
 }

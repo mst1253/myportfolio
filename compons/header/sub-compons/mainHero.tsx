@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const MainHero = () => {
     return ( 
         <section className="container flex justify-evenly" >
@@ -12,8 +14,10 @@ const MainHero = () => {
         </div> 
          </div>  
           <div className="grid place-items-center">
-          <b className='absolute w-[200px] h-[200px]  rounded-full bg-red-600'></b>
-          <span className="w-[250px] h-[250px] rounded-full animate-bounceCustome shadow-shadow'" style={{border:'2px dotted rgb(59, 130, 246)'}}>
+          <Image src='/images/imageProfile.png' className='absolute w-[250px] h-[250px] rounded-full'
+           width={500} height={500} alt='image profile'/>
+          <span className="w-[280px] h-[280px] rounded-full animate-bounceCustome shadow-shadow'" 
+          style={{border:'2px dotted rgb(59, 130, 246)'}}>
           </span>
           </div>
      </section>
