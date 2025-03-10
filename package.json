@@ -24,7 +24,8 @@
     "react-scroll": "^1.9.3",
     "sib-api-v3-sdk": "^8.4.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vercel": "^41.3.2"
   },
   "devDependencies": {
     "@types/node": "^20",
