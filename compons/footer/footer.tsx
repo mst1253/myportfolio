@@ -1,4 +1,4 @@
-
+'use client'
 import { Button, Card ,TextInput,Textarea} from "flowbite-react";
 import { MdOutlineMail } from "react-icons/md";
 import { FaSquarePhone } from "react-icons/fa6";
