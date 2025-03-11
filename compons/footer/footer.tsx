@@ -23,8 +23,7 @@ export default function Footer(){
                          <span className="text-blue-500 flex gap-2">
                         <MdOutlineMail  className="text-black dark:text-white"/> 
                         nzero8198@gmail.com</span>
-            </div>
-                    
+                   </div>  
                 </Card>
             </div>
         </div>
