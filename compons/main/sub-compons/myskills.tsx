@@ -43,7 +43,7 @@ const Myskills = () => {
                  <Image src="/images/Bootstrap.png" className="rounded-full" width={50} height={50}  alt="Bootsrap image" />
                 </span>
                 <span  className='circle dark:text-gray-300 rounded-full'style={{'--i':13} as React.CSSProperties} data-text='Tailwind Css'>
-                 <Image src="/images/tailwind CSS.png" className="rounded-full" width={50} height={50}  alt="api image" />
+                 <Image src="/images/tailwindcss.png" className="rounded-full" width={50} height={50}  alt="api image" />
                 </span>
             </div>
             </div>

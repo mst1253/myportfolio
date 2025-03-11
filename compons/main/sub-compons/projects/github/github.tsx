@@ -25,7 +25,7 @@ const Github = () => {
        src4="/videos/nsm.mp4"
        imgArr1={['/images/html-5.png','/images/css-3.png','/images/js.png']}
        imgArr2={['/images/react.png','/images/css-3.png','/images/i18next.png','/images/Express.png','/images/firebase.png']}
-       imgArr3={['/images/Next.js.png','/images/Tailwind Css.png','/images/flowbiteReact.jpg','/images/Firebase.png',
+       imgArr3={['/images/Next.js.png','/images/Tailwindcss.png','/images/flowbiteReact.jpg','/images/Firebase.png',
         '/images/reactQuery.png']}
        />
      );
