@@ -12,7 +12,7 @@ export default function Footer(){
         <div className="flex">
             <div className="container contact">
                 <Card className="shadow hover:shadow-blue-500">
-                    <form action="https://formspree.io/f/myzegprz" method="POST" className="grid gap-6">
+                    
                         <TextInput  type="email" id="email" name="email" required className="p-2" placeholder="Enter your email"/>
                         <Textarea className="p-2" placeholder="Enter your message"  id="message" name="message" required/>
                       <Button type="submit">send</Button>
@@ -24,7 +24,7 @@ export default function Footer(){
                         <MdOutlineMail  className="text-black dark:text-white"/> 
                         nzero8198@gmail.com</span>
             </div>
-                    </form>
+                    
                 </Card>
             </div>
         </div>
@@ -36,4 +36,4 @@ export default function Footer(){
        </div>
     );
 }
-
+//<form action="https://formspree.io/f/myzegprz" method="POST" className="grid gap-6">

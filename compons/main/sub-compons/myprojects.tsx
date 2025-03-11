@@ -6,7 +6,7 @@ const MyProjects = () => {
         <h1 className="dark:text-white font-bold text-lg">My Projects</h1>
         <CodePen />
         <Github />
-     </div>
+     </div>         
     )
 }
 export default MyProjects
