@@ -1,3 +1,4 @@
+'use client'
 import Menu from "./sub-compons/menu";
 import MainHero from "./sub-compons/mainHero";
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
              <Menu />
              <MainHero />
         </div>
-    );
+    )
 }
  
 export default Header

@@ -1,4 +1,4 @@
-
+'use client'
 import { Button, Card ,TextInput,Textarea} from "flowbite-react";
 import { MdOutlineMail } from "react-icons/md";
 import { FaSquarePhone } from "react-icons/fa6";
@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaCodepen } from "react-icons/fa";
 import Link from "next/link";
+
 export default function Footer(){
     return (  
        <div id="Contact" className="container grid gap-10 place-items-center p-4">
@@ -36,4 +37,4 @@ export default function Footer(){
        </div>
     );
 }
-//
+

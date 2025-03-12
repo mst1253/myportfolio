@@ -1,3 +1,4 @@
+'use client'
 import Header from "@/compons/header/header"
 import Main from "@/compons/main/main"
 import Footer from "@/compons/footer/footer"

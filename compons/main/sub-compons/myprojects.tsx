@@ -1,3 +1,4 @@
+'use client'
 import CodePen from "./projects/codepen/codepen"
 import Github from "./projects/github/github"
 const MyProjects = () => {

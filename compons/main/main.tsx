@@ -1,3 +1,4 @@
+'use client'
 import AboutMe from "./sub-compons/aboutMe";
 import Myskills from "./sub-compons/myskills";
 import MyProjects from "./sub-compons/myprojects";
