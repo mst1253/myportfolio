@@ -1,4 +1,4 @@
-'use client'
+
 import { Button, Card ,TextInput,Textarea} from "flowbite-react";
 import { MdOutlineMail } from "react-icons/md";
 import { FaSquarePhone } from "react-icons/fa6";
@@ -13,8 +13,8 @@ export default function Footer(){
             <div className="container contact">
                 <Card className="shadow hover:shadow-blue-500">
                 <form action="https://formspree.io/f/myzegprz" method="POST" className="grid gap-6">
-                        <TextInput  type="email" id="email" name="email" required className="p-2" placeholder="Enter your email"/>
-                        <Textarea className="p-2" placeholder="Enter your message"  id="message" name="message" required/>
+                      <TextInput  type="email" id="email" name="email" required className="p-2" placeholder="Enter your email"/>
+                      <Textarea className="p-2" placeholder="Enter your message"  id="message" name="message" required/>
                       <Button type="submit">send</Button>
                       <div className="grid gap-2">
                        <span className="text-blue-500 flex gap-2">

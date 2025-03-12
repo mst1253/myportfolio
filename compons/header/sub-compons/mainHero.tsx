@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 const MainHero = () => {
     return ( 
         <section className="container flex justify-evenly" >
