@@ -58,7 +58,7 @@ const VideosCompon:React.FC<Props>=({title,para1,para2,para3,para4,
          </Card>
          <Card className="border-md hover:border-blue-500 shadow-sm hover:shadow-white">
            <Link  className="grid place-items-center text-sm gap-4" href={lk3}>
-         <video className="rounded-md" autoPlay loop muted width="300">
+         <video className="rounded-md"  autoPlay loop muted width="300">
           <source src={src3} type="video/mp4" />
            Your browser does not support the video tag.
          </video>
@@ -71,7 +71,7 @@ const VideosCompon:React.FC<Props>=({title,para1,para2,para3,para4,
          </Card>
          <Card className="border-md hover:border-blue-500 shadow-sm hover:shadow-white">
           <Link className="grid place-items-center text-sm gap-4" href={lk4}>
-         <video className="rounded-md" autoPlay muted loop width="300">
+         <video className="rounded-md"  autoPlay muted loop width="300">
           <source src={src4} type="video/mp4" />
            Your browser does not support the video tag.
          </video>
