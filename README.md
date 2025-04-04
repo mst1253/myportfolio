@@ -28,4 +28,4 @@ Contact Form - for direct communication.
 
 Social Media Links - Quick access to LinkedIn, GitHub, and more.
 
-website on live:https://myportfolio-997c9rxmq-msts-projects-bfa80161.vercel.app/
+website on live:https://myportfolio-fk8s22fqo-msts-projects-bfa80161.vercel.app/
